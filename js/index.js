@@ -103,7 +103,7 @@ $(function(){
 
 //京东秒杀倒计时
 $(function(){
-	var starttime = new Date("2017/8/9 22:22:22");
+	var starttime = new Date("2017/8/30 22:22:22");
   setInterval(function () {
     var nowtime = new Date();
     var time = starttime - nowtime;
